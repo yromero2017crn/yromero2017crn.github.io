@@ -1,0 +1,121 @@
+		body {
+			margin: 0;
+			padding: 0;
+text-align: center;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+font-family: Verdana;
+		overflow: hidden;}
+		
+
+		
+
+		
+
+		
+
+
+/* Mobil */
+@media only screen and (max-width: 767px) and (orientation: portrait)
+	{
+
+		#peñiscola{background-color: #cdb79e;
+			height: 10%;
+			}
+
+		#indice{background-color: #eed5b7;
+			height: 20%;			
+			}
+
+		#contenido{						
+			background-color: #cdaa7d;
+			
+
+
+		}
+		.titulo{			
+			height: 250px;
+			margin-bottom: 5px;
+			background-color: #ffefdb;
+			text-align: center;
+			line-height: 450px;				
+			text-align: center;	
+
+		}
+		
+		
+	
+	}
+
+
+@media only screen and (max-width: 767px) and (orientation: landscape)
+	
+			{
+		#peñiscola{background-color: #cdb79e;
+			height: 20%;
+			}
+
+		#indice{background-color: #eed5b7;
+			height: 80%;
+			width: 20%;
+			float: left;
+			}
+
+		#contenido{
+			width: 80%;
+			float: left;
+			background-color: #cdaa7d;
+			overflow-y: scroll;
+
+
+		}
+		.titulo{
+			width: 40%;
+			height: 250px;
+			margin: 5px;
+			background-color: #ffefdb;
+			text-align: center;
+			line-height: 450px;	
+			float: left;			
+		} 	
+	}
+		
+	
+	
+
+/* Escriptori */
+@media only screen and (min-width: 768px)
+	{
+		#peñiscola{background-color: #cdb79e;
+			height: 20%;
+			}
+
+		#indice{background-color: #eed5b7;
+			height: 80%;
+			width: 20%;
+			float: left;
+			}
+
+		#contenido{
+			width: 80%;
+			float: left;
+			background-color: #cdaa7d;
+			overflow-y: scroll;
+
+
+		}
+		.titulo{
+			width: 40%;
+			height: 250px;
+			margin: 5px;
+			background-color: #ffefdb;
+			text-align: center;
+			line-height: 450px;	
+			float: left;			
+		} 	
+	}
+
+
