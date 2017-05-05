@@ -14,27 +14,19 @@
 			overflow: hidden;
 			background-color: #cdaa7d;
 		}
-				
-		ul {
+	
+	ul {
 		    list-style-type: none;
-		    margin: 0;
-		    padding: 0;
-		    width: 100%;
+		    padding-left: 40px;
+		    overflow: hidden;
+		    background-color: #eedfcc;
+			}
+ 
+ 	li a:hover {
 		    background-color: #cdaa7d;
-		}
-
-		li a {
-		    display: block;
-		    color: #000;
-		    padding: 8px 16px;
-		    text-decoration: none;
-		}
-
-		/* Change the link color on hover */
-		li a:hover {
-		    background-color: #555;
 		    color: white;
 		}
+
 		#flow {
 			height:100%;
 		}
@@ -47,11 +39,35 @@
 		
 				}
 
+	h3{
+		padding: 0;
+		margin: 0;
+	}
+
 
 
 /* Mobil */
 @media only screen and (max-width: 767px) and (orientation: portrait)
 	{
+		ul {
+		    list-style-type: none;
+		    padding-left: 40px;
+		    overflow: hidden;
+			}
+
+		li {
+		    float: left;
+			}
+
+		li a {
+		    display: block;
+		    color: black;
+		    text-align: center;
+		    padding: 14px 16px;
+		    text-decoration: none;
+			}
+
+
 
 		#peniscola{
 			height: 10%;
@@ -62,17 +78,17 @@
 
 		#indice{
 			background-color: #eed5b7;
-			height: 20%;			
+			height: 20%;
+			margin: 0;			
 			}
 
 		.titulo{			
 			height: 50px;
-			margin-bottom: 5px;
 			background-color: #ffefdb;
 			text-align: center;
 			padding-top: 200px;			
 			text-align: center;	
-			}
+						}
 		
 		#contenido{
 			height: 80%;
@@ -88,6 +104,22 @@
 @media only screen and (max-width: 767px) and (orientation: landscape)
 	
 	{
+		ul {
+		    list-style-type: none;
+		    margin: 0;
+		    padding: 0;
+		    width: 100%;
+		    background-color: #cdaa7d;
+		}
+
+		li a {
+		    display: block;
+		    color: #000;
+		    padding: 8px 16px;
+		    text-decoration: none;
+		}
+
+
 		#peniscola{
 			height: 20%;
 			background-image: url("img/castillo2.jpg");
@@ -129,6 +161,23 @@
 /* Escriptori */
 @media only screen and (min-width: 768px)
 	{
+		ul {
+		    list-style-type: none;
+		    margin: 0;
+		    padding: 0;
+		    width: 100%;
+		    background-color: #cdaa7d;
+		}
+
+		li a {
+		    display: block;
+		    color: #000;
+		    padding: 8px 16px;
+		    text-decoration: none;
+		}
+
+
+
 		#peniscola{
 			
 			height: 20%;
