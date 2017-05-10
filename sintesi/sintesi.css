@@ -52,7 +52,12 @@
 		ul {
 		    list-style-type: none;
 		    padding-left: 40px;
-		    overflow: hidden;
+		    overflow-x: auto;
+		    width: 100% ;
+			}
+
+			.movedor {
+			width: 1100px;
 			}
 
 		li {
@@ -84,11 +89,13 @@
 
 		.titulo{			
 			height: 50px;
+			margin-bottom: 5px;
 			background-color: #ffefdb;
 			text-align: center;
 			padding-top: 200px;			
 			text-align: center;	
-						}
+
+			}
 		
 		#contenido{
 			height: 80%;
@@ -163,9 +170,9 @@
 	{
 		ul {
 		    list-style-type: none;
-		    margin: 0;
+		    margin: 0 auto;
 		    padding: 0;
-		    width: 100%;
+		    width: 200px;
 		    background-color: #cdaa7d;
 		}
 
@@ -191,6 +198,7 @@
 			height: 80%;
 			width: 20%;
 			float: left;
+
 			}
 
 		#contenido{
@@ -213,6 +221,8 @@
 			padding-top: 200px;
 			float: left;			
 			} 	
+
+		h3{margin: 5px 0px;}
 	}
 
 
