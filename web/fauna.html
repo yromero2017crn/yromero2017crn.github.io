@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Peniscola</title>
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="movil_vertical.css">
+	<link rel="stylesheet" type="text/css" href="movil_horizontal.css">
+	<link rel="stylesheet" type="text/css" href="escritorio.css">
+</head>
+<body>
+	<div id="cabecera">
+
+		<div id="menu">
+
+			<img src="img/menu.png" onclick="abrir()">
+			<ul id="burguer">
+				<li id="tanca" onclick="tanca()">x</li>
+				
+		  			<li><a href="index.html">Història</a> </li>
+					<li><a href="localizacion.html">Com arribar?</a> </li>
+					<li><a href="clima.html">Clima </a></li>
+					<li><a href="fauna.html">Fauna i flora</a> </li>
+					<li><a href="gastronomia.html">Gastronomia</a></li>
+					<li><a href="playas.html">Platges</a></li>
+					<li><a href="lugares.html">Llocs per visitar</a></li>
+					<li><a href="oci.html">Oci</a></li>
+					<li><a href="fiestas.html">Festes</a></li>
+			</ul>
+		</div>
+
+			<div id="barra"> <p id="menu2">Menú</p> <p id="titulo"><b>Peníscola</b></p>
+		</div>	
+	</div>
+
+	<div id="fondofauna">	
+
+	
+		<div id="fauna">
+		
+			
+			<h3 align="center">Fauna i flora </h3>
+			
+			<p>
+	La gavina d'Audovín, el corb marí, l'ocell de tempesta comú i el falcó d'Eleanor figuren entre la seva fauna més característica.</p>
+	 <p>La flora està composta per vegetació típica que es forma a partir del matoll mediterrani: margalló, llentiscle, ginebre de la Miera, Albaida i Espino negre sobretot, encara que també hi ha una espècie endèmica de la serra: el gerani d'Irta. </p>
+		<div id="img4"></div>
+		</div>
+	</div>
+
+	<script type="text/javascript" language="javascript">
+		function abrir(){
+			document.getElementById('burguer').style.height="440px";
+		}
+		function tanca(){
+			document.getElementById('burguer').style.height="0";
+		}
+	</script>
+
+</body>
+</html>
