@@ -2,6 +2,10 @@
 @media only screen and (max-width: 500px) and (orientation: portrait)
 	{
 
+		body{
+			height: 100%;
+		}
+
 		#cabecera{	
 	margin: 0px;
 	padding: 0;
@@ -107,7 +111,7 @@ p{
 
 	background-image: url(img/castillo3.jpg);
 	background-repeat: no-repeat;
-	height: 42.5%;
+	height: 365px;
 	margin-top: 50px;
 
 }
@@ -130,7 +134,7 @@ p{
 #img2{
 	background-image: url(img/historia.jpg);
 	background-repeat: no-repeat;
-	height: 60%;
+	height: 480px;
 }
 
 h3{
