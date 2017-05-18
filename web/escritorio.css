@@ -47,6 +47,7 @@ p{
 	#menu img{
 		margin-left: 5px;
 		cursor: pointer;
+
 	}
 	#burguer{
 			list-style-type: none;			
@@ -74,6 +75,9 @@ p{
 		#tanca{
 			cursor: pointer;
 			float: right;
+			margin: 0 auto;
+			color: white;
+			font-size: 1.5em;
 		}
 		#barra li{
 			display: inline;
@@ -179,7 +183,7 @@ margin: 0 40px }
 	width: 50%;
 	background-color: rgba( 255,255,255,0.8); 
 	margin: 2em auto; 
-	height: 70%;
+	height: 60%;
 	overflow-y: auto;
 	overflow-x: hidden;
 }
@@ -202,10 +206,10 @@ margin: 0 40px }
 	margin-top: 10px;
 }
 #fauna{
-	width: 70%;
+	width: 50%;
 	background-color: rgba( 255,255,255,0.8); 
 	margin: 2em auto; 
-	height: 80%;
+	height: 60%;
 	overflow: hidden;
 	overflow-x: hidden;
 }
@@ -481,8 +485,80 @@ margin: 0 40px }
 	margin-top: 10px;
 }
 
-#lugares{}
-#oci{}
+
+#oci{
+	width: 50%;
+	background-color: rgba( 255,255,255,0.8); 
+	margin: 2em auto; 
+	height: 80%;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+#fondooci{
+	background-image: url(img/castillo4.jpg);
+	background-repeat: no-repeat;
+	height: 95%;
+	margin-top: 50px;
+	overflow: hidden;
+	opacity: 1;
+	
+}
+
+#disco{
+	background-image: url(img/disco.jpg);
+	width: 500px;
+	height: 375px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px; 
+	text-align: center;
+}
+#mercat{
+	background-image: url(img/mercat.jpg);
+	width: 500px;
+	height: 375px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px; 
+	text-align: center;
+}
+#paintball{
+	background-image: url(img/paintball.jpg);
+	width: 500px;
+	height: 375px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px; 
+	text-align: center;
+}
+#oreneta{
+	background-image: url(img/oreneta.jpg);
+	width: 500px;
+	height: 375px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px; 
+	text-align: center;
+}
+#fly{
+	background-image: url(img/fly.jpg);
+	width: 500px;
+	height: 375px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px; 
+	text-align: center;
+}
+#golf{
+	background-image: url(img/golf.jpg);
+	width: 500px;
+	height: 375px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px; 
+	text-align: center;
+}
+
 #fiestas{}
 
 	}
