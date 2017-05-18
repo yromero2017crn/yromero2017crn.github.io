@@ -59,7 +59,7 @@ p{
 			padding: 0;
 			height: 0px;
 			width: 220px;
-			overflow-y: scroll;
+			overflow-y: auto;
 			transition: 1s;
 
 		}
