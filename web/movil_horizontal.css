@@ -167,7 +167,7 @@ margin: 0 40px }
 }
 
 #localizacion {
-	width: 80%;
+	width: 50%;
 	background-color: rgba( 255,255,255,0.8); 
 	margin: 2em auto; 
 	height: 95%;
@@ -175,7 +175,7 @@ margin: 0 40px }
 }
 
 #comollegar{
-	background-image: url(img/mapacomollegar2.png);
+	background-image: url(img/mapacomollegar3.png);
 	margin-top: 1em;
 	width: 100%;
 	height: 100%;

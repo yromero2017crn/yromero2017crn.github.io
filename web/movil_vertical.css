@@ -24,7 +24,7 @@ p{
 	height: 50px;
 	width: 60px;
 	background-color: #00688b;
-	float:left;
+	float:left;	
 }
 #menu2{
 	color: white;
@@ -55,11 +55,12 @@ p{
 			padding: 0;
 			height: 0px;
 			width: 220px;
-			overflow: hidden;
+			overflow-y: auto;
 			transition: 1s;		
 		}
 		#burguer li{
-			border-bottom: 1px solid #fff
+			border-bottom: 1px solid #fff;
+			height: 50px;						
 		}
 		#burguer li a {
 			display: block;
@@ -72,6 +73,8 @@ p{
 			height: 50px;
 		}
 		#tanca{
+			font-size: 2em;
+			color: white;
 			cursor: pointer;
 			float: right;
 		}
@@ -117,16 +120,16 @@ p{
 	color: black;
 	text-align: center;
 	overflow-y: auto;	
-	height: 425px;
-	margin: 15px 15px;
+	height: 400px;
+	margin: 20px 15px;
 	float: left;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.8);
 }
 
 #img2{
 	background-image: url(img/historia.jpg);
 	background-repeat: no-repeat;
-	height: 450px;
+	height: 60%;
 }
 
 h3{
@@ -168,7 +171,7 @@ margin: 0 40px }
 	background-image: url(img/mapacomollegar2.png);
 	margin-top: 1em;
 	width: auto;
-	height: 64%;
+	height: 40%;
 	background-repeat: no-repeat;
 	}
 
@@ -179,30 +182,427 @@ margin: 0 40px }
 	background-color: rgba( 255,255,255,0.8); 
 	margin: 2em auto; 
 	height: 70%;
-	overflow: auto;
+	overflow: hidden;
+	height: auto;
 }
 #fondoclima{
 	background-image: url(img/clima1.jpg);
 	background-repeat: no-repeat;
-	height: 93%;
+	height: 95%;
 	margin-top: 50px;
 	overflow: hidden;
 	opacity: 1;
-}
 
-#img4{
-	background-image: url(img/gerani.jpg);
+}
+#img3{
+	background-image: url(img/clima3.jpg);
 	width: 200px;
 	height: 133px;
 	background-repeat: no-repeat;
 	margin: 10px auto;
 }
 
-#fauna{}
-#gastronomia{}
-#playas{}
-#lugares{}
-#oci{}
-#fiestas{}
 
+#fauna{
+	width: 85%;
+	background-color: rgba( 255,255,255,0.8); 
+	margin: 2em auto; 
+	height: 90%;
+	overflow: hidden;
+	height: auto;
+}
+#fondofauna{
+	background-image: url(img/fauna1.jpg);
+	background-repeat: no-repeat;
+	height: 94%;
+	margin-top: 50px;
+	overflow: hidden;
+
+}
+#img4{
+	background-image: url(img/fauna2.jpg);
+	width: 300px;
+	height: 200px;
+	background-repeat: no-repeat;
+	margin: 10px auto;
+}
+
+#gastronomia{
+	width: 85%;
+	background-color: rgba( 255,255,255,0.8); 
+	margin: 2em auto; 
+	overflow-y: scroll;
+	height: 80%;
+}
+#fondogastronomia{
+	background-image: url(img/castillo2.jpg);
+	background-repeat: no-repeat;
+	height: 94%;
+	margin-top: 50px;
+	overflow: hidden;
+}
+#img5{
+	background-image: url(img/bar1.jpg);
+	width: 300px;
+	height: 200px;
+	background-repeat: no-repeat;
+	margin: 10px auto;
+}
+
+
+#playas{
+	width: 85%;
+	background-color: rgba( 255,255,255,0.8); 
+	margin: 2em auto; 
+	overflow-y: scroll;
+	height: 80%;
+}
+#fondoplayas{
+	background-image: url(img/castillo7.jpg);
+	background-repeat: no-repeat;
+	height: 94%;
+	margin-top: 50px;
+	overflow-x: hidden;
+	opacity: 1;
+
+}
+
+
+#sud{
+	background-image: url(img/sud1.jpg);
+	width: 300px;
+	height: 172px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#santallucia{
+	background-image: url(img/santalucia1.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#nord{
+	background-image: url(img/nord1.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#irta{
+	background-image: url(img/irta1.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#ruso{
+	background-image: url(img/russo1.jpg);
+	width: 300px;
+	height: 200px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#viudes{
+	background-image: url(img/viudas1.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#pextina{
+	background-image: url(img/petxina1.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#portblau{
+	background-image: url(img/portblau1.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#argilaga{
+	background-image: url(img/argilaga1.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#lugares{
+	width: 85%;
+	background-color: rgba( 255,255,255,0.8); 
+	margin: 2em auto; 
+	overflow-y: scroll;
+	height: 80%;
+}
+#fondolugares{
+	background-image: url(img/castillo2.jpg);
+	background-repeat: no-repeat;
+	height: 94%;
+	margin-top: 50px;
+	overflow: hidden;
+	opacity: 1;
+
+}
+
+
+#bufador{
+	background-image: url(img/bufador.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#illes{
+	background-image: url(img/illes.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#castell{
+	background-image: url(img/castell.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#museu{
+	background-image: url(img/museu.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#tren{
+	background-image: url(img/tren.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#santamaria{
+	background-image: url(img/santamaria.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#muralles{
+	background-image: url(img/muralles.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#puerto{
+	background-image: url(img/puerto.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#font{
+	background-image: url(img/font.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#serra{
+	background-image: url(img/serra.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#far{
+	background-image: url(img/far.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#jardins{
+	background-image: url(img/jardins.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#casa{
+	background-image: url(img/casa.jpg);
+	width: 300px;
+	height: 270px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#oci{
+	width: 85%;
+	background-color: rgba( 255,255,255,0.8); 
+	margin: 2em auto; 
+	overflow-y: scroll;
+	height: 80%;
+}
+#fondooci{
+	background-image: url(img/fondo.jpg);
+	background-repeat: no-repeat;
+	height: 94%;
+	margin-top: 50px;
+	overflow: hidden;
+	opacity: 1;
+
+}
+
+
+#disco{
+	background-image: url(img/disco.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#mercat{
+	background-image: url(img/mercat.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#paintball{
+	background-image: url(img/paintball.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#oreneta{
+	background-image: url(img/oreneta.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#fly{
+	background-image: url(img/fly.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#golf{
+	background-image: url(img/golf.jpg);
+	width: 300px;
+	height: 270px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#fiestas{
+	width: 85%;
+	background-color: rgba( 255,255,255,0.8); 
+	margin: 2em auto; 
+	overflow-y: scroll;
+	height: 80%;
+}
+#fondofiestas{
+	background-image: url(img/fondo.jpg);
+	background-repeat: no-repeat;
+	height: 94%;
+	margin-top: 50px;
+	overflow: hidden;
+	opacity: 1;
+
+}
+
+
+#santantoniabat{
+	background-image: url(img/Santantoniabat1.jpg);
+	width: 300px;
+	height: 200px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#carnestoltes{
+	background-image: url(img/carnestoltes1.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#ss{
+	background-image: url(img/setmanasanta1.jpg);
+	width: 300px;
+	height: 210px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#santantoni{
+	background-image: url(img/santantoni.jpg);
+	width: 300px;
+	height: 200px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#sp{
+	background-image: url(img/Santpere1.jpg);
+	width: 300px;
+	height: 215px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#festes{
+	background-image: url(img/festes1.jpg);
+	width: 300px;
+	height: 200px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#falles{
+	background-image: url(img/falles1.jpg);
+	width: 300px;
+	height: 225px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 10px;
+}
 	}
