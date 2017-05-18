@@ -129,9 +129,9 @@ p{
 }
 
 #img2{
-	background-image: url(img/historia.jpg);
+	background-image: url(img/historia3.jpg);
 	background-repeat: no-repeat;
-	height: 490px;
+	height: 700px;
 }
 
 h3{
@@ -214,9 +214,9 @@ margin: 0 40px }
 	height: auto;
 }
 #fondofauna{
-	background-image: url(img/fauna1.jpg);
+	background-image: url(img/fauna.jpg);
 	background-repeat: no-repeat;
-	height: 94%;
+	height: 930px;
 	margin-top: 50px;
 	overflow: hidden;
 
@@ -239,7 +239,7 @@ margin: 0 40px }
 #fondogastronomia{
 	background-image: url(img/castillo2.jpg);
 	background-repeat: no-repeat;
-	height: 94%;
+	height: 95%;
 	margin-top: 50px;
 	overflow: hidden;
 }
@@ -260,9 +260,9 @@ margin: 0 40px }
 	height: 80%;
 }
 #fondoplayas{
-	background-image: url(img/castillo7.jpg);
+	background-image: url(img/castillo.jpg);
 	background-repeat: no-repeat;
-	height: 94%;
+	height: 100%;
 	margin-top: 50px;
 	overflow-x: hidden;
 	opacity: 1;
@@ -353,7 +353,7 @@ margin: 0 40px }
 #fondolugares{
 	background-image: url(img/castillo2.jpg);
 	background-repeat: no-repeat;
-	height: 94%;
+	height: 95%;
 	margin-top: 50px;
 	overflow: hidden;
 	opacity: 1;
@@ -476,7 +476,7 @@ margin: 0 40px }
 #fondooci{
 	background-image: url(img/fondo.jpg);
 	background-repeat: no-repeat;
-	height: 94%;
+	height: 95%;
 	margin-top: 50px;
 	overflow: hidden;
 	opacity: 1;
@@ -542,7 +542,7 @@ margin: 0 40px }
 #fondofiestas{
 	background-image: url(img/fondo.jpg);
 	background-repeat: no-repeat;
-	height: 94%;
+	height: 95%;
 	margin-top: 50px;
 	overflow: hidden;
 	opacity: 1;
