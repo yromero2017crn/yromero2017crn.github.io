@@ -120,8 +120,9 @@ p{
 	color: black;
 	text-align: center;
 	overflow-y: auto;	
-	height: 400px;
+	height: 50%;
 	margin: 20px 15px;
+	margin-bottom: 10px;
 	float: left;
 	background-color: rgba(255,255,255,0.8);
 }
