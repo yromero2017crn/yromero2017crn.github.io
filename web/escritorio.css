@@ -209,7 +209,7 @@ margin: 0 40px }
 	width: 50%;
 	background-color: rgba( 255,255,255,0.8); 
 	margin: 2em auto; 
-	height: 60%;
+	height: 90%;
 	overflow: hidden;
 	overflow-x: hidden;
 }
@@ -381,7 +381,7 @@ margin: 0 40px }
 
 #bufador{
 	background-image: url(img/bufador.jpg);
-	width: 550px;
+	width: 500px;
 	height: 300px;
 	background-repeat: no-repeat;
     margin: auto;
@@ -390,7 +390,7 @@ margin: 0 40px }
 }
 #illes{
 	background-image: url(img/illes.jpg);
-	width: 550px;
+	width: 500px;
 	height: 300px;
 	background-repeat: no-repeat;
 	margin: 0 auto;
@@ -398,7 +398,7 @@ margin: 0 40px }
 }
 #castell{
 	background-image: url(img/castell.jpg);
-	width: 550px;
+	width: 500px;
 	height: 300px;
 	background-repeat: no-repeat;
 	margin: 0 auto;
@@ -406,7 +406,7 @@ margin: 0 40px }
 }
 #museu{
 	background-image: url(img/museu.jpg);
-	width: 550px;
+	width: 500px;
 	height: 300px;
 	background-repeat: no-repeat;
 	margin: 0 auto;
@@ -414,7 +414,7 @@ margin: 0 40px }
 }
 #tren{
 	background-image: url(img/tren.jpg);
-	width: 550px;
+	width: 500px;
 	height: 280px;
 	background-repeat: no-repeat;
 	margin: 0 auto;
@@ -422,7 +422,7 @@ margin: 0 40px }
 }
 #santamaria{
 	background-image: url(img/santamaria.jpg);
-	width: 550px;
+	width: 500px;
 	height: 300px;
 	background-repeat: no-repeat;
 	margin: 0 auto;
@@ -430,7 +430,7 @@ margin: 0 40px }
 }
 #muralles{
 	background-image: url(img/muralles.jpg);
-	width: 550px;
+	width: 500px;
 	height: 300px;
 	background-repeat: no-repeat;
 	margin: 0 auto;
@@ -438,7 +438,7 @@ margin: 0 40px }
 }
 #puerto{
 	background-image: url(img/puerto.jpg);
-	width: 550px;
+	width: 500px;
 	height: 280px;
 	background-repeat: no-repeat;
 	margin: 0 auto;
@@ -446,7 +446,7 @@ margin: 0 40px }
 }
 #font{
 	background-image: url(img/font.jpg);
-	width: 550px;
+	width: 500px;
 	height: 300px;
 	background-repeat: no-repeat;
 	margin: 0 auto;
@@ -454,7 +454,7 @@ margin: 0 40px }
 }
 #serra{
 	background-image: url(img/serra.jpg);
-	width: 550px;
+	width: 500px;
 	height: 250px;
 	background-repeat: no-repeat;
 	margin: 0 auto;
@@ -462,7 +462,7 @@ margin: 0 40px }
 }
 #far{
 	background-image: url(img/far.jpg);
-	width: 550px;
+	width: 500px;
 	height: 250px;
 	background-repeat: no-repeat;
 	margin: 0 auto;
@@ -470,7 +470,7 @@ margin: 0 40px }
 }
 #jardins{
 	background-image: url(img/jardins.jpg);
-	width: 550px;
+	width: 500px;
 	height: 300px;
 	background-repeat: no-repeat;
 	margin: 5px auto;
@@ -478,7 +478,7 @@ margin: 0 40px }
 }
 #casa{
 	background-image: url(img/casa.jpg);
-	width: 550px;
+	width: 500px;
 	height: 366px;
 	background-repeat: no-repeat;
 	margin: 0 auto;
@@ -490,7 +490,7 @@ margin: 0 40px }
 	width: 50%;
 	background-color: rgba( 255,255,255,0.8); 
 	margin: 2em auto; 
-	height: 80%;
+	height: 90%;
 	overflow: scroll;
 	overflow-x: hidden;
 }
@@ -564,7 +564,7 @@ margin: 0 40px }
 	width: 50%;
 	background-color: rgba( 255,255,255,0.8); 
 	margin: 2em auto; 
-	height: 80%;
+	height: 90%;
 	overflow: scroll;
 	overflow-x: hidden;
 }
