@@ -21,9 +21,11 @@
 
 	#menu{
 		height: 50px;
-		width: 60px;
+		width: 80%;
 		background-color: #00688b;
 		float:left;
+		margin: 0;
+		padding: 0;
 	}
 
 	#menu2{
@@ -40,8 +42,9 @@
 		margin: 0;
 		float: left;
 		position: absolute;
-		right: 5%;
+		right: 2%;
 		color: white;
+		width: 170px;
 	}
 
 	#menu img{
@@ -56,13 +59,12 @@
 		margin: 0;
 		padding: 0;
 		height: 50px;
-		width: 900px;
-		overflow-y: auto;
+		width: 830px;
+		overflow-y: hidden;
 		transition: 1s;		
 	}
 
 	#burguer li{
-			
 		float: left;
 	}
 
@@ -102,9 +104,6 @@
 		display: block;
 			}
 
-	#barra{
-		height: 20%;
-		float: left;
 	}
 
 	p{
@@ -693,5 +692,5 @@ h3{
 		margin-top: 10px; 
 		text-align: center;
 	}
-	
+
 }
