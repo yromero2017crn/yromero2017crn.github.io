@@ -184,6 +184,7 @@ h3{
 	margin: 2em auto; 
 	height: 70%;
 	overflow: auto;
+	overflow-x: hidden;
 }
 
 #fondoclima{
