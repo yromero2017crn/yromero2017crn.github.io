@@ -1,7 +1,9 @@
 /* Escriptori */
 @media only screen and (min-width: 801px)
 {
-
+body{
+	overflow-y: auto;
+}
 #cabecera{	
 	margin: 0px;
 	padding: 0;
@@ -121,17 +123,6 @@
 		margin-left: 10px;
 		margin-top: 15px;
 	}
-
-
-
-
-#img1{
-	background-image: url(img/castillo.jpg);
-	width: 100%;
-	background-repeat: no-repeat;
-	height: 500px;
-	margin-top: 50px;
-}
 
 #texto1{
 	margin-top:0px;
