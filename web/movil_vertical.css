@@ -135,6 +135,7 @@
 
 h3{
 	margin: 5px;
+	color: red;
 }
 
 #texto1 dl{ 
@@ -209,10 +210,11 @@ margin: 0 40px
 	height: 60%;
 	overflow-y: scroll;
 }
+
 #fondofauna{
-	background-image: url(img/fauna.jpg);
+	background-image: url(img/jardines2.jpg);
 	background-repeat: no-repeat;
-	height: 930px;
+	height: 950px;
 	margin-top: 50px;
 	overflow: hidden;
 }
